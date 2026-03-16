@@ -165,8 +165,7 @@ Invoke-WebRequest -Uri "http://localhost:5678/webhook-test/pipedrive-deal-won" `
 | ClickUp task list | ✅ | Optional review | AI suggests; team adjusts |
 | Teams message + member addition | ✅ | — | Fixed team roles, internal comms |
 | SharePoint folder move | ✅ | — | Deterministic, reversible |
-| **High-risk deals** | ✅ Detected | — | IF node classifies risk; 
-human gate architected, not yet implemented |
+| **High-risk deals** | ✅ Detected | — | IF node classifies risk; human gate architected, not yet implemented |
 
 > In the current implementation, all decisions are fully automated regardless of risk level. 
 > A human approval gate for high-risk deals is architected in the IF(risk) node but not yet active — 
